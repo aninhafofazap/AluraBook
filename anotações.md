@@ -3,4 +3,5 @@
 cinza: #EBECEE;
 branco: #FFFFFF;
 laranja: #EB9B00;
-azul: 
+azul:  #002F52;
+
