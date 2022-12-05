@@ -14,7 +14,7 @@
 
 .swiper-pagination {
     position: initial;
-    margin: 0.5em 0;
+    margin: .5em 0;
 }
 
 .swiper-button-prev,
@@ -39,13 +39,13 @@
 .descricao-titulo {
     color: #EB9B00;
     font-weight: 700;
-    margin: 0.5em 0;
 }
 
 .descricao-titulo-livro {
     color: #002F52;
     font-size: 18px;
     font-weight: 700;
+    margin: 0.5em 0;
 }
 
 .descricao-texto {

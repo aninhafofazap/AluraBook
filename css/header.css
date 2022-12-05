@@ -24,6 +24,12 @@
     padding: 1em;
 }
 
+.lista-menu-titulo,
+.lista-menu-item {
+    padding: 1em;
+    background-color: #FFFFFF;
+}
+
 .lista-menu {
     display: none;
     position: absolute;
@@ -31,20 +37,15 @@
     width: 60vw;
 }
 
-.container-botao:checked~.lista-menu {
-    display: block;
-}
-
-.lista-menu-titulo,
-.lista-menu-item {
-    padding: 1em;
-    background-color: #FFFFFF;
-}
-
 .lista-menu-titulo {
     color: #EB9B00;
     font-weight: 700;
 }
+
+.container-botao:checked~.lista-menu {
+    display: block;
+}
+
 
 .lista-menu-link {
     background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
