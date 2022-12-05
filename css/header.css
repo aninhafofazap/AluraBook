@@ -47,6 +47,7 @@
 }
 
 
+
 .lista-menu-link {
     background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     -webkit-background-clip: text;
@@ -65,6 +66,10 @@
 }
 
 .opcoes {
+    display: none;
+}
+
+.opcoes-item {
     display: none;
 }
 
@@ -89,6 +94,10 @@
 
     .opcoes {
         display: flex;
+    }
+
+    .seletor {
+        cursor: pointer;
     }
 
     .opcoes-item {
