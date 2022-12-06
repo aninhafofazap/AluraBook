@@ -69,6 +69,10 @@
     display: none;
 }
 
+.container-texto {
+    display: none;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (min-width: 1024px) {
@@ -161,5 +165,28 @@
     .lista-menu-item:hover>.lista-menu-link {
         -webkit-text-fill-color: #FFFFFF;
         text-decoration: none;
+    }
+}
+
+/* MEDIA QUERY*/
+
+@media screen and (min-width: 1728px) {
+    .container-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container-texto {
+        display: block;
     }
 }
