@@ -37,3 +37,26 @@
     background-position: 1em;
     text-align: center
 }
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato-titulo {
+        font-size: 24px;
+    }
+
+    .contato-descricao {
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contato-email {
+        width: 30%;
+    }
+}
