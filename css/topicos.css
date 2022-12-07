@@ -29,6 +29,11 @@
     font-size: 14px;
 }
 
+.topicos-link:hover {
+    color: #EB9B00;
+    background-color: #FFFFFF;
+}
+
 @media screen and (min-width: 1024px) {
     .topicos-titulo {
         font-size: 24px;
@@ -36,5 +41,21 @@
 
     .topicos-link {
         font-size: 24px;
+    }
+
+    .topicos-link:hover {
+        color: #EB9B00;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 3em 30vw;
+    }
+
+    .topicos-link:hover {
+        color: #EB9B00;
+        background-color: #FFFFFF;
     }
 }

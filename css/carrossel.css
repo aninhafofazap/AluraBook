@@ -75,6 +75,10 @@
     text-decoration: none;
 }
 
+.botoes-ancora:active {
+    background-color: #002F52;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (min-width: 1024px) {
@@ -87,7 +91,7 @@
     }
 
     .swiper {
-        width: 60%;
+        width: 300px;
     }
 
     .swiper-button-prev,
@@ -100,9 +104,18 @@
         width: 40%;
         margin: 2em auto;
     }
+
+    .botoes-ancora:active {
+        background-color: #002F52;
+    }
 }
 
 @media screen and (min-width: 1728px) {
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
+
     .carrossel-container {
         display: flex;
         margin: 0 20vw 3em 20vw;
@@ -131,6 +144,10 @@
     .card {
         width: 60%;
         margin-left: 3em;
+    }
+
+    .botoes-ancora:active {
+        background-color: #002F52;
     }
 
 }

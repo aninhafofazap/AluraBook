@@ -9,6 +9,7 @@ hr {
 
 .lista-rodape {
     display: none;
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -33,12 +34,33 @@ hr {
         margin-left: 0.6em;
     }
 
+    .lista-rodape-link:hover {
+        color: #EB9B00;
+    }
+
     .lista-rodape-titulo {
         font-size: 14px;
-        color: var(--cinza-claro);
+        color: #858585;
     }
 
     .rodape-titulo {
         font-size: 24px;
+    }
+
+
+}
+
+@media screen and (min-width: 1728px) {
+    .lista-rodape {
+        border-left: 1px solid #858585;
+        padding-left: 1em;
+    }
+
+    .lista-rodape-link:hover {
+        color: #EB9B00;
+    }
+
+    .rodape {
+        padding: 3em 0;
     }
 }

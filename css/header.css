@@ -7,6 +7,14 @@
     background-position: center;
 }
 
+.container-botao:checked~.container-rotulo>.cabecalho-menu {
+    background-image: url(/images/Menu\ Aberto-2.svg);
+}
+
+.container-botao:checked~.container-rotulo {
+    background: #002F52;
+}
+
 .cabecalho {
     background-color: #FFFFFF;
     display: flex;
